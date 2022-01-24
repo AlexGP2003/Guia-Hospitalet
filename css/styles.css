@@ -3,7 +3,12 @@
 html {
     font-size: 16px;
     scroll-behavior: smooth;
-    background-color: gray;
+    background-color: rgb(179, 179, 179);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#subrayo{
+    text-decoration: underline;
 }
 
 * {
@@ -42,6 +47,7 @@ li>a {
     margin: 4px;
     border-radius: 10%;
     border: 4px solid black;
+    padding-bottom: 10px;
 }
 #interes1{
     text-align: center;
@@ -65,6 +71,17 @@ iframe{
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 5%;
+}
+
+#Piepag{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-bottom: 5%;
+}
+
+.blanco{
+    color:white;
 }
 
 /*imagenes*/
@@ -102,7 +119,7 @@ iframe{
 }
 
 #card-5{
-    background-image: url("../img/Can_buxeres.jpg");
+    background-image: url("../img/gran_via.jpg");
     border-radius: 10%;
     height: 40vh;
     margin-bottom: 10px;
@@ -130,6 +147,65 @@ iframe{
     background-position: center;
 }
 
+#card-8{
+    background-image: url("../img/hospi_ermita.jpg");
+    border-radius: 10%;
+    height: 40vh;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    border:4px solid black;
+}
+
+#card-9{
+    background-image: url("../img/feixa_llarga.jpg");
+    border-radius: 10%;
+    height: 40vh;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    border:4px solid black;
+}
+
+#card-10{
+    background-image: url("../img/rambla_hospi.jpeg");
+    border-radius: 10%;
+    height: 40vh;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    border:4px solid black;
+}
+
+#card-11{
+    background-image: url("../img/plaza_repartidos.jpeg");
+    border-radius: 10%;
+    height: 40vh;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    border:4px solid black;
+}
+
+#card-12 {
+    background-image: url("../img/Poliesportiu_Municipal_del_Centre_de_l\'Hospitalet.jfif");
+    border-radius: 10%;
+    height: 40vh;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    border:4px solid black;
+}
+
+#card-13{
+    background-image: url("../img/Spain.Catalonia.Hospitalet.Hotel.Hesperia.Plantilla.jfif");
+    border-radius: 10%;
+    height: 40vh;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    border:4px solid black;
+}
 
 
 /*Redimension de la fuente de la pagina*/
@@ -141,12 +217,8 @@ p {
 h1 {
     font-size: 3rem;
     margin: 0px;
-    font-size: 1rem;
-}
-
-h1 {
-    font-size: 3rem;
-    margin: 0px;
+    background-color: rgba(245, 245, 245, 0.25);
+    font-weight: bold;
 }
 
 h3 {
@@ -163,6 +235,7 @@ h5 {
 
 h6 {
     font-size: 1.2rem;
+    margin-top: 0%;
 }
 
 
@@ -196,6 +269,13 @@ h6 {
     float: left;
     position: fixed;
     margin-left: 80%;
+    text-align: center;
+
+}
+
+.column-noticias1 {
+    padding: 5%;
+
 }
 
 .column-bandera{
@@ -206,6 +286,7 @@ h6 {
 .column-imagen{
     width: 30%;
     float: left;
+    padding: 10px;
 }
 
 .column-mapa{
@@ -230,6 +311,42 @@ h6 {
 
 /*Media Query*/
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
+
+    #card-2 {
+        border-radius: 10%;
+        border:4px solid black;
+        background-image: url("../img/Fondo_titulo.jpg");
+        height: 40vh;
+        background-size: cover;
+        background-position: center;
+        margin-left: 5%;
+    }
+
+    .column-index {
+        width: 100%;
+        float: left;
+        position:relative ;
+    }
+    .column-pag {
+        width: 100%;
+        float: left;
+        background-color: white;
+        margin: 0px;
+    }
+    
+    .column-noticias {
+        width: 100%;
+        float: left;
+        text-align: center;
+        position:relative ;
+        margin: 0px;
+    }
+
+    .column-2 {
+        width: 100%;
+        float: left;
+    }
+    
 
 }
