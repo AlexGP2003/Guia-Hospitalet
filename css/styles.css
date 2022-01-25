@@ -7,7 +7,7 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
-#subrayo{
+#subrayo {
     text-decoration: underline;
 }
 
@@ -18,7 +18,8 @@ html {
 body {
     margin: 0;
 }
-header{
+
+header {
     margin-bottom: 5%;
 }
 
@@ -34,32 +35,38 @@ li>a {
 }
 
 #Creacion-Hospi {
-    padding: 5%;
-}
-#Expname{
+    padding-bottom: 5%;
+    padding-left: 5%;
     padding-right: 5%;
 }
-#simbologia{
+
+#Expname {
+    padding-right: 5%;
+}
+
+#simbologia {
     padding-left: 5%;
 }
-#simbologia1{
+
+#simbologia1 {
     text-align: center;
     margin: 4px;
     border-radius: 10%;
     border: 4px solid black;
     padding-bottom: 10px;
 }
-#interes1{
+
+#interes1 {
     text-align: center;
     border-radius: 10%;
     border: 4px solid black;
 }
 
-#Interes{
+#Interes {
     text-align: center;
 }
 
-iframe{
+iframe {
     border-radius: 10%;
     height: 55vh;
     background-size: cover;
@@ -67,22 +74,23 @@ iframe{
     width: 107%;
 }
 
-#borders{
+#borders {
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 5%;
 }
 
-#Piepag{
+#Piepag {
     background-color: black;
     text-align: center;
     color: white;
     padding-bottom: 5%;
 }
 
-.blanco{
-    color:white;
+.blanco {
+    color: white;
 }
+
 
 /*imagenes*/
 
@@ -95,13 +103,14 @@ iframe{
 
 #card-2 {
     border-radius: 10%;
-    border:4px solid black;
+    border: 4px solid black;
     background-image: url("../img/Fondo_titulo.jpg");
     height: 40vh;
     background-size: cover;
     background-position: center;
 }
-#card-3{
+
+#card-3 {
     background-image: url("../img/escudo_hospi.jpg");
     border-radius: 10%;
     height: 40vh;
@@ -109,7 +118,8 @@ iframe{
     background-position: center;
     margin-bottom: 10px;
 }
-#card-4{
+
+#card-4 {
     background-image: url("../img/bandera_hospi.png");
     border-radius: 10%;
     height: 40vh;
@@ -118,7 +128,7 @@ iframe{
     background-position: center;
 }
 
-#card-5{
+#card-5 {
     background-image: url("../img/gran_via.jpg");
     border-radius: 10%;
     height: 40vh;
@@ -127,7 +137,7 @@ iframe{
     background-position: center;
 }
 
-#card-6{
+#card-6 {
     background-image: url("../img/LaFargaCentroComercial_1.jpg");
     border-radius: 10%;
     height: 40vh;
@@ -136,9 +146,7 @@ iframe{
     background-position: center;
 }
 
-
-
-#card-7{
+#card-7 {
     background-image: url("../img/el_casino.jpg");
     border-radius: 10%;
     height: 40vh;
@@ -147,44 +155,44 @@ iframe{
     background-position: center;
 }
 
-#card-8{
+#card-8 {
     background-image: url("../img/hospi_ermita.jpg");
     border-radius: 10%;
     height: 40vh;
     margin: 10px;
     background-size: cover;
     background-position: center;
-    border:4px solid black;
+    border: 4px solid black;
 }
 
-#card-9{
+#card-9 {
     background-image: url("../img/feixa_llarga.jpg");
     border-radius: 10%;
     height: 40vh;
     margin: 10px;
     background-size: cover;
     background-position: center;
-    border:4px solid black;
+    border: 4px solid black;
 }
 
-#card-10{
+#card-10 {
     background-image: url("../img/rambla_hospi.jpeg");
     border-radius: 10%;
     height: 40vh;
     margin: 10px;
     background-size: cover;
     background-position: center;
-    border:4px solid black;
+    border: 4px solid black;
 }
 
-#card-11{
+#card-11 {
     background-image: url("../img/plaza_repartidos.jpeg");
     border-radius: 10%;
     height: 40vh;
     margin: 10px;
     background-size: cover;
     background-position: center;
-    border:4px solid black;
+    border: 4px solid black;
 }
 
 #card-12 {
@@ -194,17 +202,17 @@ iframe{
     margin: 10px;
     background-size: cover;
     background-position: center;
-    border:4px solid black;
+    border: 4px solid black;
 }
 
-#card-13{
+#card-13 {
     background-image: url("../img/Spain.Catalonia.Hospitalet.Hotel.Hesperia.Plantilla.jfif");
     border-radius: 10%;
     height: 40vh;
     margin: 10px;
     background-size: cover;
     background-position: center;
-    border:4px solid black;
+    border: 4px solid black;
 }
 
 
@@ -239,7 +247,6 @@ h6 {
 }
 
 
-
 /*clear floats after the columns*/
 
 .row:after {
@@ -270,30 +277,29 @@ h6 {
     position: fixed;
     margin-left: 80%;
     text-align: center;
-
 }
 
 .column-noticias1 {
     padding: 5%;
-
 }
 
-.column-bandera{
+.column-bandera {
     width: 60%;
     float: left;
 }
 
-.column-imagen{
+.column-imagen {
     width: 30%;
     float: left;
     padding: 10px;
 }
 
-.column-mapa{
+.column-mapa {
     margin-left: 5%;
     width: 60%;
     float: left;
 }
+
 .column-1 {
     width: 100%;
     float: left;
@@ -304,29 +310,28 @@ h6 {
     float: left;
 }
 
-.column-3{
+.column-3 {
     width: 33%;
     float: left;
 }
 
+
 /*Media Query*/
 
 @media only screen and (max-width: 600px) {
-
     #card-2 {
         border-radius: 10%;
-        border:4px solid black;
+        border: 4px solid black;
         background-image: url("../img/Fondo_titulo.jpg");
         height: 40vh;
         background-size: cover;
         background-position: center;
         margin-left: 5%;
     }
-
     .column-index {
         width: 100%;
         float: left;
-        position:relative ;
+        position: relative;
     }
     .column-pag {
         width: 100%;
@@ -334,19 +339,15 @@ h6 {
         background-color: white;
         margin: 0px;
     }
-    
     .column-noticias {
         width: 100%;
         float: left;
         text-align: center;
-        position:relative ;
+        position: relative;
         margin: 0px;
     }
-
     .column-2 {
         width: 100%;
         float: left;
     }
-    
-
 }
